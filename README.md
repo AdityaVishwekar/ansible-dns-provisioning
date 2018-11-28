@@ -1,6 +1,6 @@
 # Overview
 
-This sample shows how a public compute instance can be [launched](https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/launchinginstance.htm) and [accessed](https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/accessinginstance.htm) from the internet using SSH, through OCI ansible cloud modules.
+This sample shows how a public compute instance can be [launched](https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/launchinginstance.htm) and creation of 'A' record in DNS zone, through OCI ansible cloud modules.
 
 The sample 
 - generates a temporary host-specific SSH key-pair
@@ -13,3 +13,4 @@ To run the sample, after ensuring that you have the pre-requisites for OCI ansib
 - instance_ad
 - instance_compartment
 - instance_image  # provide an OEL image
+
